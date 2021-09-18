@@ -27,9 +27,14 @@ function Registration() {
             <h1>Online Reporting Module for M.Tech students</h1>
             <form>
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">First Name</label>
                     <span class="text-danger">*</span>
-                    <input type="text" class="form-control" id="name" placeholder="Enter name" />
+                    <input type="text" class="form-control" id="name" placeholder="Enter first name" />
+                </div>
+                <div class="form-group">
+                    <label for="name">Last Name</label>
+                    <span class="text-danger">*</span>
+                    <input type="text" class="form-control" id="name" placeholder="Enter last name" />
                 </div>
                 <div class="form-group">
                     <label for="date">Birthdate</label>
@@ -109,7 +114,7 @@ function Registration() {
                 </div>
                 <div class="form-group">
                     <label for="notes">Notes</label>
-                    <textarea class="form-control" id="notes" rows="3"></textarea>
+                    <textarea class="form-control" id="notes" rows="3" placeholder="Write something here..."></textarea>
                 </div>
                 <br />
                 <button type="submit" class="btn btn-primary">Submit</button>
